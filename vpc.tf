@@ -12,10 +12,10 @@ resource "aws_subnet" "this" {
   for_each = {
     "pub_a" : ["172.31.0.0/20", "${var.aws_region}a", "Public A"]
     "pub_b" : ["172.31.32.0/20", "${var.aws_region}b", "Public B"]
-	"pvt_c" : ["172.31.16.0/20", "${var.aws_region}c", "Private C"]
-    "pvt_a" : ["172.31.0.0/20", "${var.aws_region}a", "Private A"]
+    "pvt_c" : ["172.31.16.0/20", "${var.aws_region}c", "Private C"]
+    "pvt_a" : ["172.31.0.0/20",  "${var.aws_region}a", "Private A"]
     "pvt_b" : ["172.31.32.0/20", "${var.aws_region}b", "Private B"]
-	"pvt_c" : ["172.31.16.0/20", "${var.aws_region}c", "Private C"]
+    "pvt_c" : ["172.31.16.0/20", "${var.aws_region}c", "Private C"]
 	
   }
 
