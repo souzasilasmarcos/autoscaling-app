@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/30444491/134281995-fe315445-f908-4e25-b82a-ffcca961ec89.png)
 
 # autoscaling-app
-Autoscaling-app em Iac em nova estrutura em cloud AWS
+Autoscaling-app em Iac em nova estrutura sobre cloud AWS
 
 Toda estrutura iac baseada em terraform
 
