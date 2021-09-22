@@ -25,7 +25,7 @@ Usar módulos nativos, interpolação, arquivos de estado do Terraform versao 1.
 Subida de um site estático com React em container subida em template e userdate alem de utilizar AWS S3, Cloudfront, certificado SSL e domínio personalizado no ALB
 Estruturar a aplicação auto-escalável com VPC, Internet Gateway, Subnets, Security Groups, EC2, Load Balancer e Auto Scaling Group.
 
- >> Diagram do projeto: <<
+Diagram do projeto: <<
 
 ![image](https://user-images.githubusercontent.com/30444491/134282100-a666ab96-ae67-4d41-bcfb-fe154cabc172.png)
 
