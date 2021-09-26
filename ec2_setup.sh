@@ -10,4 +10,4 @@ sudo apt  install docker.io
 
 # sudo stress-ng --cpu 32 --timeout 180 --metrics-brief
 
-# subida de aplicacao em aplicacao web acesso vi ALB
+# subida de aplicacao em aplicacao web acesso via ALB
