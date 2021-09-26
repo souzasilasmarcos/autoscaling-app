@@ -1,5 +1,5 @@
 bucket         = "tfstate-374120343751"
 key            = "autoscaling-app/terraform.tfstate"
 region         = "sa-east-1"
-profile        = "dev-key-admin-sp"
+profile        = "devops.noob"
 dynamodb_table = "tflock-tfstate-374120343751"

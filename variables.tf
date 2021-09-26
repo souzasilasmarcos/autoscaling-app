@@ -7,13 +7,13 @@ variable "aws_region" {
 variable "aws_profile" {
   type        = string
   description = ""
-  default     = "dev-key-admin-sp"
+  default     = "devops.noob"
 }
 
 variable "aws_account_id" {
   type        = number
   description = ""
-  default     = 374120343751
+  default     = 374120343750
 }
 
 variable "service_name" {
@@ -31,5 +31,5 @@ variable "instance_type" {
 variable "instance_key_name" {
   type        = string
   description = ""
-  default     = "devops.noob"
+  default     = "dev-key-admin-sp"
 }

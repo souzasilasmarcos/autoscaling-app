@@ -1,21 +1,17 @@
-terraform {
-  required_version = "1.0.6"
-
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "3.32.0"
-    }
-    random = {
-      source  = "hashicorp/random"
-      version = "3.1.0"
-    }
-  }
-
-  backend "s3" {}
+provider "aws" {
+  region  = "sa-east-1"
+  profile = "devops.noob"
 }
 
-provider "aws" {
-  region  = var.aws_region
-  profile = var.aws_profile
+resource "aws_s3_bucket" "aws-codedeploy-sa-east-1-002" {
+  bucket = "aws-codedeploy-sa-east-1-202109112314"
+  acl    = "private"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+    Managedby   = "Terraform"
+    Owner       = "Lasmarco_dev"
+    UpdatedAt   = "2021-09-11"
+  }
 }
