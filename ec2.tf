@@ -68,6 +68,7 @@ resource "aws_instance" "jenkins" {
   vpc_security_group_ids = [aws_security_group.jenkins.id]
   subnet_id              = aws_subnet.this["pvt_b"].id
   availability_zone      = "${var.aws_region}b"
+  key_name               = var.instance_key_name
 
   tags = merge(local.common_tags, { Name = "Jenkins Machine" })
 }
