@@ -1,4 +1,5 @@
 provider "aws" {
+  shared_credentials_file = "$HOME/.aws/credentials"
   region  = "sa-east-1"
   profile = "devops.noob"
 }
