@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REGION="sa-east-1"
-ACCOUNT_NUMBER=374120343751
+ACCOUNT_NUMBER=Account id
 
 sudo apt install docker.io -y
 sudo usermod -a -G docker ubuntu
